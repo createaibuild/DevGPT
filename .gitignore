@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+bonus_CopyMessage.jsx
+bonus_SearchTitles.jsx
+bonus_ExportChat.jsx

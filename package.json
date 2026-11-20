@@ -1,0 +1,16 @@
+{
+  "name": "devgpt",
+  "private": true,
+  "version": "1.0.0",
+  "description": "DevGPT is a MERN chat app with a ChatGPT-style interface.",
+  "scripts": {
+    "setup": "npm install --prefix server && npm install --prefix client",
+    "dev": "concurrently -n api,web -c green,cyan \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "start": "npm start --prefix server",
+    "build": "npm run build --prefix client",
+    "test": "npm test --prefix server && npm test --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
