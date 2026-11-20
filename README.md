@@ -224,6 +224,12 @@ server/src
 
 A user owns many conversations. Each conversation stores its messages in order. The client keeps the open thread in memory and reloads it from the API when you pick another chat.
 
+##UI
+<img width="1920" height="1080" alt="Login" src="https://github.com/user-attachments/assets/619bf62a-0070-408d-aba9-9aa5502943a3" />
+<img width="1920" height="1080" alt="Chat Window" src="https://github.com/user-attachments/assets/bba4e988-0b17-4ae1-a540-64dfcb38be28" />
+
+
+
 ## Design decisions
 
 - **Context instead of Redux.** Auth and theme are small, and the open chat lives in one hook. A store would add structure this app does not need yet.
